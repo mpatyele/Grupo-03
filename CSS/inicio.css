@@ -1,7 +1,6 @@
 * {
   margin: 0%;
   padding: 0%;
-  box-sizing: border-box;
   font-family: "Ubuntu", sans-serif;
 }
 
@@ -127,7 +126,7 @@ nav ul li a {
 
 
 
-/*Section Cursos*/
+/*Section Cursos - ajustar essa parte!!*/
 .todos-cursos {
   display: flex;
   justify-content: space-around;
@@ -155,7 +154,6 @@ nav ul li a {
 }
 
 .independencia img {
-  width: 187px;
   height: 270px;
 }
 
@@ -180,11 +178,11 @@ nav ul li a {
   font-weight: 300;
   font-size: 17px;
   line-height: 20px;
-  text-align: justify;
+  text-align: center;
   color: #000000;
   width: 293px;
   height: 60px;
-  margin-top: 57px;
+  margin-top: 23px;
   margin-left: 14px;
   margin-right: 134px;
 
@@ -202,7 +200,8 @@ nav ul li a {
   font-size: 20px;
   line-height: 23px;
   text-align: center;
-  margin-top: 183px;
+  margin-left: 50px;
+  margin-top: 117px;
   margin-right: 164px;
   position: absolute;
 }
@@ -352,7 +351,7 @@ img {
   box-sizing: border-box;
   border: 2px solid #FF4081;
   border-radius: 62px;
-  background-color: #FFFFFF;
+  background-color: #F7F7F7;
 
   width: 289px;
   height: 51px;
