@@ -1,0 +1,393 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Ubuntu", sans-serif;
+}
+
+
+/*Header*/
+header {
+    display: flex;
+    background-color: #2E948A;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 117px;
+    width: auto;
+}
+
+#img-banner {
+    padding-top: 20px;
+    padding-bottom: 26px;
+    padding-left: 82px;
+}
+
+
+header ul li {
+    display: inline-flex;
+    justify-content: space-between;
+    padding-inline-end: 42px;
+    line-height: 23px;
+}
+
+
+#nav-header {
+    margin-right: 103px;
+}
+
+
+nav ul li a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+    list-style: none;
+    text-decoration: none;
+}
+
+/*Main*/
+.inicio h1 {
+    position: absolute;
+    width: 263px;
+    height: 69px;
+    left: 82px;
+    top: 198px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 69px;
+    text-transform: capitalize;
+    color: #FF4081;
+}
+
+.inicio p {
+    position: absolute;
+    width: 317px;
+    height: 23px;
+    left: 82px;
+    top: 267px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    color: #555555;
+}
+
+/*Section curso01*/
+
+.curso01 {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 500px;
+    margin-top: 175px;
+    padding-left: 80px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-top: 109px;
+}
+
+.img-curso01 {
+    position: absolute;
+    left: 112px;
+    right: 948px;
+    top: 385px;
+    bottom: 1665px;
+}
+
+.texto-curso01 {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-curso01 {
+    position: absolute;
+    width: 512px;
+    height: 40px;
+    left: 545px;
+    top: 406px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+.p-curso01 {
+    position: absolute;
+    width: 724px;
+    height: 105px;
+    left: 545px;
+    top: 483px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.botao-curso01 {
+    position: absolute;
+    width: 233px;
+    height: 51px;
+    left: 545px;
+    top: 641px;
+    background: #419488;
+    border-radius: 62px;
+}
+
+.botao-curso01 a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/*Linha de separação*/
+
+.linha-01 {
+    position: absolute;
+    width: 1244px;
+    height: 5px;
+    left: 82px;
+    top: 834px;
+}
+
+/*Section curso02*/
+
+.curso02 {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 500px;
+    margin-top: 10px;
+    padding-left: 80px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-top: 109px;
+}
+
+.img-curso02 {
+    position: absolute;
+    left: 112px;
+    right: 948px;
+    top: 946px;
+    bottom: 1100px;
+}
+
+.texto-curso02 {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-curso02 {
+    position: absolute;
+    width: 512px;
+    height: 40px;
+    left: 545px;
+    top: 947px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+.p-curso02 {
+    position: absolute;
+    width: 724px;
+    height: 105px;
+    left: 545px;
+    top: 1024px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.botao-curso02 {
+    position: absolute;
+    width: 233px;
+    height: 51px;
+    left: 545px;
+    top: 1199px;
+    background: #419488;
+    border-radius: 62px;
+}
+
+.botao-curso02 a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/*Linha de separação*/
+
+.linha-02 {
+    position: absolute;
+    width: 1244px;
+    height: 5px;
+    left: 82px;
+    top: 1424px;
+}
+
+/*Section curso03*/
+
+.curso03 {
+    display: flex;
+    justify-content: space-around;
+    width: auto;
+    height: 900px;
+    margin-top: 10px;
+    padding-left: 80px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    padding-top: 109px;
+}
+
+.img-curso03 {
+    position: absolute;
+    left: 112px;
+    right: 932px;
+    top: 1522px;
+    bottom: 411px;
+}
+
+.texto-curso03 {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo-curso03 {
+    position: absolute;
+    width: 512px;
+    height: 40px;
+    left: 545px;
+    top: 1581px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 40px;
+    color: #FF4081;
+}
+
+.p-curso03 {
+    position: absolute;
+    width: 724px;
+    height: 105px;
+    left: 545px;
+    top: 1658px;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.botao-curso03 {
+    position: absolute;
+    width: 233px;
+    height: 51px;
+    left: 545px;
+    top: 1789px;
+    background: #419488;
+    border-radius: 62px;
+}
+
+.botao-curso03 a {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+
+/*Footer*/
+footer {
+    display: flex;
+    background-color: #2E948A;
+    align-items: center;
+    height: 150px;
+    justify-content: space-around;
+
+}
+
+#rodape {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1500px;
+}
+
+.footer-logo {
+    margin-left: 30px;
+
+}
+
+
+#img-banner-footer {
+    width: 312px;
+}
+
+.nav-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.nav-footer a {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-transform: lowercase;
+    width: 71px;
+    text-decoration: none;
+}
+
+
+#tags button {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    background-color: #2E948A;
+    border-radius: 62px;
+    width: 289px;
+    height: 51px;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin: 14px 41px;
+    margin-right: 137px;
+}
+
+.button1 a {
+    text-decoration: none;
+    color: #FFFFFF;
+    gap: 13px;
+
+}
+
+.button2 a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
