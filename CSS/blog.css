@@ -114,6 +114,11 @@ h1 {
 
 }
 
+.conteudos a {
+    text-decoration: none;
+
+}
+
 
 h3 {
     font-family: 'Ubuntu', sans-serif;
