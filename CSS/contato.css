@@ -1,0 +1,219 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: "Ubuntu", sans-serif;
+  }
+  
+  
+  /*Header*/
+  header {
+    display: flex;
+    background-color: #2E948A;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    height: 117px;
+    width: auto;
+  }
+  
+  #img-banner {
+    padding-top: 20px;
+    padding-bottom: 26px;
+    padding-left: 82px;
+  }
+  
+  
+  header ul li {
+    display: inline-flex;
+    justify-content: space-between;
+    padding-inline-end: 42px;
+    line-height: 23px;
+  }
+  
+  
+  #nav-header {
+    margin-right: 103px;
+  }
+  
+  
+  nav ul li a {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #FDFDFD;
+    list-style: none;
+    text-decoration: none;
+  }
+
+/*Section titulo*/
+
+ .titulo{
+  position: absolute;
+  left: 136px;
+  right: 1150px;
+  top: 222px;
+  bottom: 681px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 46px;
+  color: #FF4081;
+ }
+
+/*Section: corpo-site*/
+
+.corpo-site{
+  display: flex;
+  justify-content: space-around;
+  height: 625px;
+}
+
+.formularios {
+  position: absolute;
+  top: 312px;
+  left: 139px;
+  right: 808px;
+  bottom: 309px;
+  line-height: 30px;
+  border-radius: 7px;
+
+}
+
+#form-nome{
+  padding-bottom: 15px;
+}
+
+#form-email{
+  padding-bottom: 15px;
+}
+#form-msg{
+  padding-bottom: 15px;
+}
+
+#Nome::-webkit-input-placeholder{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+ }
+
+ #email::-webkit-input-placeholder{
+    position: absolute;
+    top: 3px;
+    left: 3px;
+ }
+
+#msg::-webkit-input-placeholder{
+   position: absolute;
+   top:10px;
+   left: 3px;
+}
+
+.imagem{
+  position: absolute;
+  width: 444px;
+  height: 444px;
+  left: 833px;
+  top: 199px;
+}
+
+#button{
+  width: 108px;
+  height: 32px;
+  background: #FF4081;
+  border-radius: 50px;
+  margin-top: 10px;
+}
+
+#botao a{
+font-family: 'Nunito';
+font-style: normal;
+font-weight: 800;
+font-size: 16px;
+line-height: 22px;
+text-align: center;
+text-transform: lowercase;
+color: #FFFFFF;
+text-decoration: none;
+}
+
+
+
+  
+  /*Footer*/
+footer {
+    display: flex;
+    background-color: #2E948A;
+    align-items: center;
+    height: 150px;
+    justify-content: space-around;
+  
+  }
+  
+  #rodape {
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1500px;
+  }
+  
+  .footer-logo {
+    margin-left: 30px;
+  
+  }
+  
+  
+  #img-banner-footer {
+    width: 312px;
+  }
+  
+  .nav-footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  
+  
+  .nav-footer a {
+    font-family: 'Ubuntu', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 23px;
+    color: #FFFFFF;
+    text-transform: lowercase;
+    width: 71px;
+    text-decoration: none;
+  }
+  
+  
+  #tags button {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid #FFFFFF;
+    background-color: #2E948A;
+    border-radius: 62px;
+    width: 289px;
+    height: 51px;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    margin: 14px 41px;
+    margin-right: 137px;
+  }
+  
+  .button1 a {
+    text-decoration: none;
+    color: #FFFFFF;
+    gap: 13px;
+  
+  }
+
+  .button2 a {
+    text-decoration: none;
+    color: #FFFFFF;
+  }
